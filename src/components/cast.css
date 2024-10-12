@@ -1,0 +1,29 @@
+.cast-container {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .cast-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cast-container p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .cast-container p.text-red {
+    color: #f00;
+  }
+  
+  .cast-container:hover {
+    transform: scale(1.05);
+  }
+  

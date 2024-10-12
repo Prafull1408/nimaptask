@@ -1,0 +1,8 @@
+.navbar-right {
+  min-width: 600px;
+}
+@media (max-width: 800px) {
+    .navbar-right{
+        display: none;
+    }
+  }
